@@ -4,7 +4,7 @@ var app = new Vue({
         arrayDischi: [],
     },
     mounted() {
-        axios.get('../../api/index.php').then((response) => {
+        axios.get('./api/index.php').then((response) => {
             
             this.arrayDischi = response.data;
 
