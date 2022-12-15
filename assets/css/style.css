@@ -4,10 +4,56 @@
     box-sizing: border-box;
 }
 
+
+body{
+    width: 100vw;
+}
+
 header{
     background-color: #2e3a46;
     height: 50px;
     padding: 5px;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+.sfondo{
+    background-color: #1e2d3b;
+}
+
+
+
+/*********************
+      CONTAINER
+********************/
+
+
+main{
+    background-color: #1e2d3b;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cards{
+    width: calc(100% / 3 - 50px);
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.poster{
+    max-width: 65%;
+}
+
+.author{
+    color: white;
+    font-weight: 50px;
+    font-size: 22px;
+    text-transform: uppercase;
 }
