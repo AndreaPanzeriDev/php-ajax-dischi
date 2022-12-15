@@ -17,10 +17,11 @@
         </header>
         <main>
             <div class="container">
-                <div class="cards" v-for="(elem, index) in arrayDischi" :key="index">>
+                <div class="cards" v-for="(elem, index) in arrayDischi" :key="index">
                     <div><img class="poster" :src="elem.poster" alt="poster"></div>
+                    <div class="title">{{ elem.title }}</div>
                     <div class="author">{{ elem.author }}</div>
-                    <div></div>
+                    <div class="author">{{ elem.year }}</div>
                 </div>
             </div>
         </main>
